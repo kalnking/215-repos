@@ -1,0 +1,59 @@
+.hero-wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: $site-yellow;
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 1280px;
+    height: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-yellow, 0.8),
+        rgba($site-yellow, 0.8)
+      ),
+      url(../images/home-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .callout {
+    margin-top: 50px;
+    text-align: center;
+    width: 416px;
+    min-height: 200px;
+
+    h1 {
+      color: $site-white;
+      font-size: 40px;
+      font-family: serif;
+    }
+
+    .l-imp {
+      color: $site-magenta;
+      margin-bottom: 35px;
+      font-style: italic;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    .desc {
+      color: $site-white;
+      margin-bottom: 35px;
+      font-style: italic;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  }
+
+  .site-button {
+    padding: 10px 25px;
+    background-color: $site-magenta;
+    text-decoration: none;
+    color: $site-white;
+  }
+}

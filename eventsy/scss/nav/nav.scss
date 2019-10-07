@@ -1,0 +1,35 @@
+nav {
+  width: 980px;
+  height: 92px;
+
+  border-bottom: 2px solid $site-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    height: 42px;
+    width: 92px;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+
+    a {
+      color: $site-white;
+      font-size: 15px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-decoration: none;
+    }
+
+    span {
+      margin: 0 10px;
+      color: $site-magenta;
+      font-size: 20px;
+    }
+  }
+}

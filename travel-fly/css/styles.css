@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+.hero-wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: #000000; }
+  .hero-wrapper .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1280px;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/travel-fly/images/hero.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/travel-fly/images/hero.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/travel-fly/images/hero.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/travel-fly/images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .hero-wrapper .callout {
+    margin-top: 50px;
+    text-align: center;
+    width: 416px;
+    min-height: 200px; }
+    .hero-wrapper .callout h1 {
+      margin-top: 30px;
+      color: #ffffff;
+      font-size: 60px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 100; }
+    .hero-wrapper .callout .desc {
+      color: #ffffff;
+      margin-bottom: 40px;
+      font-style: italic;
+      font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+      font-size: 40; }
+  .hero-wrapper .site-button {
+    padding: 10px 25px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px; }
+
+nav {
+  width: 980px;
+  height: 92px;
+  border-bottom: 2px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  nav .logo {
+    height: 42px;
+    width: 92px;
+    border: 2px solid #ffffff; }
+    nav .logo p {
+      margin-top: 20px;
+      font-size: 20px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      color: #ffffff;
+      letter-spacing: 2px; }
+  nav .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: lowercase; }
+    nav .links a {
+      font-weight: 100;
+      color: #ffffff;
+      font-size: 15px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      text-decoration: none;
+      letter-spacing: 2px; }
+    nav .links span {
+      margin: 0 20px;
+      color: #79addc;
+      font-size: 30px; }

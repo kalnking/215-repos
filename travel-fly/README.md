@@ -3,3 +3,9 @@ This is the first assignment including the header section of the travel-fly webs
 10/11/19
 
 https://kalnking.github.io/215-repos/travel-fly/
+
+Second assigment. Finished Homepage.
+
+10/28/19
+
+https://kalnking.github.io/215-repos/travel-fly/

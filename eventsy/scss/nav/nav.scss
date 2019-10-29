@@ -1,5 +1,7 @@
 nav {
-  width: 980px;
+  position: relative;
+  z-index: 99;
+  width: 80%;
   height: 92px;
 
   border-bottom: 2px solid $site-white;
@@ -12,11 +14,19 @@ nav {
     width: 92px;
   }
 
-  .links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: lowercase;
+  .link-wrap {
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: lowercase;
+    }
+    .navicon {
+      display: none;
+      color: $site-white;
+      font-size: 120%;
+      cursor: pointer;
+    }
 
     a {
       color: $site-white;
@@ -30,6 +40,31 @@ nav {
       margin: 0 10px;
       color: $site-magenta;
       font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    .link-wrap {
+      .links {
+        //display: none;
+        flex-direction: column;
+        margin-top: 250px;
+        background-color: rgba(black, 0.5);
+        width: 200px;
+
+        span {
+          display: none;
+        }
+      }
+      .navicon {
+        display: block;
+
+        &:hover > .links {
+          display: block;
+        }
+      }
     }
   }
 }

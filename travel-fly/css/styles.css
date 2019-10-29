@@ -128,85 +128,222 @@ nav {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly; }
+  .box-float .box {
+    width: 236px;
+    height: 304px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .box-float .box h2 {
+      text-align: center;
+      color: #ffffff;
+      margin-top: 60px;
+      color: #ffffff;
+      font-size: 60px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 100; }
+    .box-float .box h3 {
+      text-align: center;
+      color: #ffffff;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+      margin-top: -40px; }
+    .box-float .box .tour-button {
+      padding: 10px 25px;
+      background-color: #79addc;
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      font-weight: 100;
+      font-size: 15px;
+      border-radius: 20px;
+      width: 80%;
+      margin-bottom: 60px;
+      text-align: center; }
+  .box-float .box-two {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-float .box-three {
+    background-color: black;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
 
-.box-one {
-  width: 236px;
-  height: 304px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+.booking-form {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+  margin-bottom: 60px; }
 
-.box-two {
-  width: 236px;
-  height: 304px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+.row-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .row-1 input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #79addc;
+    height: 58px;
+    margin-bottom: 20px;
+    padding: 25px;
+    width: 50%;
+    margin-right: 20px; }
 
-.box-three {
-  width: 236px;
-  height: 304px;
-  background-color: black;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
-  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+.row-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .row-2 input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #79addc;
+    height: 58px;
+    margin-bottom: 20px;
+    padding: 25px;
+    width: 50%;
+    margin-right: 20px; }
 
-h2 {
-  text-align: center;
-  color: #ffffff;
-  margin-top: 60px;
-  color: #ffffff;
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100; }
+.row-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .row-3 label {
+    width: 100px;
+    margin-top: 20px; }
+  .row-3 input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #79addc;
+    height: 58px;
+    margin-bottom: 20px;
+    padding: 25px;
+    width: 90%;
+    margin-right: 20px; }
 
-h3 {
-  text-align: center;
-  color: #ffffff;
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  margin-top: -15px; }
+.row-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .row-4 label {
+    width: 100px;
+    margin-top: 20px; }
+  .row-4 input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #79addc;
+    height: 58px;
+    margin-bottom: 20px;
+    padding: 25px;
+    width: 90%;
+    margin-right: 20px; }
 
-.tour-button {
-  padding: 10px 25px;
+.row-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .row-5 label {
+    margin-top: 20px; }
+  .row-5 input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #79addc;
+    height: 58px;
+    margin-bottom: 20px;
+    padding: 25px;
+    width: 103px;
+    margin-right: 20px; }
+
+.row-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .row-6 input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #79addc;
+    height: 192px;
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 25px;
+    margin-right: 20px; }
+
+.submit-button {
+  padding: 15px 465px;
   background-color: #79addc;
   text-decoration: none;
   color: #ffffff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 100;
   font-size: 15px;
-  border-radius: 20px; }
-
-.booking-form {
-  overflow: hidden;
-  margin: 0 auto;
-  width: 1000px;
-  height: 100%; }
-
-.form-inline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+  border-radius: 20px;
+  margin-bottom: 100px;
+  text-align: center; }
 
 h1 {
   margin-top: 60px;
@@ -214,19 +351,12 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter; }
 
-input {
-  display: flexbox;
-  border: 1px solid #79addc;
-  height: 58px;
-  margin-bottom: 20px;
-  padding: 25px; }
-
-.column1 {
-  float: left;
-  padding-right: 20px; }
-
 .fill-text {
   font-size: 18px; }
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter; }
 
 footer {
   width: 100%;
@@ -235,18 +365,62 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.footer-logo {
-  margin-left: 150px;
-  height: 42px;
-  width: 92px;
-  border: 2px solid #ffffff; }
-  .footer-logo p {
-    margin-top: 20px;
-    font-size: 20px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    color: #ffffff;
-    letter-spacing: 2px; }
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  footer .footer-2 {
+    margin: 0 auto;
+    width: 980px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 30px; }
+    footer .footer-2 .footer-logo {
+      height: 42px;
+      width: 92px;
+      border: 2px solid #ffffff; }
+      footer .footer-2 .footer-logo p {
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        color: #ffffff;
+        letter-spacing: 2px; }
+    footer .footer-2 .copyright {
+      color: #ffffff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+    footer .footer-2 .icons {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      footer .footer-2 .icons .icon-1 {
+        background-image: url(../images/social/facebook-3-24.png);
+        width: 20px;
+        height: 20px;
+        margin: 10px; }
+      footer .footer-2 .icons .icon-2 {
+        background-image: url(../images/social/instagram-24.png);
+        width: 20px;
+        height: 20px;
+        margin: 10px; }
+      footer .footer-2 .icons .icon-3 {
+        background-image: url(../images/social/twitter-3-24.png);
+        width: 20px;
+        height: 20px;
+        margin: 10px; }

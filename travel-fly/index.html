@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Travel-Fly</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -14,11 +18,16 @@
           <div class="logo">
             <p>travel-fly</p>
           </div>
-          <div class="links">
-            <a href="#">home</a><span> | </span> <a href="#">about</a
-            ><span> | </span> <a href="#">gallery</a><span> | </span>
-            <a href="#">blog</a><span> | </span>
-            <a href="#">contact</a>
+          <div class="link-wrap">
+            <div class="links">
+              <a href="#">home</a><span> | </span> <a href="#">about</a
+              ><span> | </span> <a href="#">gallery</a><span> | </span>
+              <a href="#">blog</a><span> | </span>
+              <a href="#">contact</a>
+            </div>
+            <div class="navicon">
+              <i class="fas fa-bars"></i>
+            </div>
           </div>
         </nav>
         <div class="callout">
@@ -50,39 +59,38 @@
         <a class="tour-button" href="#">LEARN MORE</a>
       </div>
     </section>
-    <section>
-      <form class="booking-form">
-        <h1>Booking Form</h1>
 
-        <div class="row-1">
-          <input type="text" placeholder="name..." />
-          <input type="text" placeholder="email..." />
-        </div>
-        <div class="row-2">
-          <input type="text" placeholder="country..." />
-          <input type="text" placeholder="hotel..." />
-        </div>
-        <div class="row-3">
-          <label for="check-in">Check-in</label>
-          <input type="date" id="check-in" placeholder="05/10/2020" />
-        </div>
-        <div class="row-4">
-          <label for="check-out">Check-out</label>
-          <input type="date" id="check-out" placeholder="05/20/2020" />
-        </div>
-        <div class="row-5">
-          <label for="adults">Adults</label>
-          <input type="number" id="Adults" placeholder="2" />
-          <label for="children">Children</label>
-          <input type="number" id="children" placeholder="0" />
-          <label for="rooms">Rooms</label>
-          <input type="number" id="rooms" placeholder="1" />
-        </div>
-        <div class="row-6">
-          <input type="text" placeholder="message..." />
-        </div>
-        <a class="submit-button" href="#">SUBMIT</a>
-      </form>
+    <section class="booking-form">
+      <h1>Booking Form</h1>
+
+      <div class="row-1">
+        <input type="text" placeholder="name..." />
+        <input type="text" placeholder="email..." />
+      </div>
+      <div class="row-2">
+        <input type="text" placeholder="country..." />
+        <input type="text" placeholder="hotel..." />
+      </div>
+      <div class="row-3">
+        <label for="check-in">Check-in</label>
+        <input type="date" id="check-in" placeholder="05/10/2020" />
+      </div>
+      <div class="row-4">
+        <label for="check-out">Check-out</label>
+        <input type="date" id="check-out" placeholder="05/20/2020" />
+      </div>
+      <div class="row-5">
+        <label for="adults">Adults</label>
+        <input type="number" id="Adults" placeholder="2" />
+        <label for="children">Children</label>
+        <input type="number" id="children" placeholder="0" />
+        <label for="rooms">Rooms</label>
+        <input type="number" id="rooms" placeholder="1" />
+      </div>
+      <div class="row-6">
+        <input type="text" placeholder="message..." />
+      </div>
+      <a class="submit-button" href="#">SUBMIT</a>
     </section>
   </body>
   <footer class="footer">

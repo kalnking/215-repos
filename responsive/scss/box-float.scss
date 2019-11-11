@@ -5,6 +5,7 @@
   flex-direction: row;
   width: 1280px;
   justify-content: space-evenly;
+  min-height: 304px;
 
   .box {
     width: 236px;
@@ -81,20 +82,5 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-}
-
-@media (max-width: 1000px) {
-  .box-float {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    padding: 10px 0;
-    width: 700px;
-  }
-
-  .box {
-    margin: 20px 0;
   }
 }

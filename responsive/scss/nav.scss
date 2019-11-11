@@ -31,10 +31,10 @@ nav {
       text-transform: lowercase;
     }
 
-    i {
-      display: none;
-      font-size: 20px;
+    .navicon {
+      //display: none;
       color: $site-white;
+      font-size: 120%;
       cursor: pointer;
     }
 
@@ -55,30 +55,25 @@ nav {
     }
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   nav {
     .link-wrap {
-      &:hover > .links {
-        display: flex;
-      }
-
       .links {
-        margin-top: 40px;
         display: none;
         flex-direction: column;
+        margin-top: 250px;
+        background-color: rgba(black, 0.5);
+        width: 200px;
 
         span {
           display: none;
         }
       }
       .navicon {
-        i {
-          display: flex;
+        display: block;
 
-          &:hover > .links {
-            display: block;
-            background-color: black;
-          }
+        &:hover > .links {
+          display: block;
         }
       }
     }

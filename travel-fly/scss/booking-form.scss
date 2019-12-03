@@ -212,21 +212,16 @@
     }
     .row-5 {
       flex-direction: row;
-      width: 10%;
-
-      label {
-        margin-top: 20px;
-        margin-right: 10px;
-      }
+      justify-items: center;
 
       input {
+        margin-left: 30px;
         display: flex;
         border: 1px solid $site-blue;
         height: 58px;
         margin-bottom: 20px;
         padding: 25px;
         width: 103px;
-        margin-right: 20px;
       }
     }
     .row-6 {

@@ -1,0 +1,88 @@
+nav {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  height: 92px;
+  z-index: 99;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo-two {
+    height: 42px;
+    width: 92px;
+    border: 2px solid black;
+
+    p {
+      margin-top: 20px;
+      font-size: 20px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: black;
+      letter-spacing: 1px;
+    }
+  }
+
+  .link-wrap2 {
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: lowercase;
+    }
+
+    i {
+      display: none;
+      font-size: 20px;
+      color: black;
+      cursor: pointer;
+    }
+
+    a {
+      font-weight: 100;
+      color: black;
+      font-size: 15px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-decoration: none;
+      letter-spacing: 2px;
+    }
+
+    span {
+      margin: 0 20px;
+      color: $site-blue;
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  nav {
+    .link-wrap {
+      &:hover > .links {
+        display: flex;
+      }
+
+      .links {
+        margin-top: 40px;
+        display: none;
+        flex-direction: column;
+
+        span {
+          display: none;
+        }
+      }
+      .navicon {
+        i {
+          display: flex;
+
+          &:hover > .links {
+            display: block;
+            background-color: black;
+          }
+        }
+      }
+    }
+  }
+}

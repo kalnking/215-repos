@@ -42,3 +42,52 @@
     border-bottom: 2px solid black;
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+
+  .photo {
+    width: 260px;
+    height: 150px;
+    background-image: url(../images/about-client-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .paragraph {
+    width: 385px;
+    height: 102px;
+
+    p {
+      margin-left: 30px;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      letter-spacing: 2px;
+    }
+  }
+  .photo2 {
+    width: 260px;
+    height: 150px;
+    background-image: url(../images/about-client-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .paragraph2 {
+    width: 385px;
+    height: 102px;
+
+    p {
+      margin-left: 30px;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      letter-spacing: 2px;
+    }
+  }
+}

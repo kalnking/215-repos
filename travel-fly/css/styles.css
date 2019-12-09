@@ -149,7 +149,7 @@ nav {
       display: block;
       background-color: black; } }
 
-nav {
+.nav-two {
   margin: 0 auto;
   position: relative;
   width: 80%;
@@ -164,18 +164,19 @@ nav {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
-  nav .logo-two {
+  justify-content: space-between;
+  margin-bottom: 50px; }
+  .nav-two .logo-two {
     height: 42px;
     width: 92px;
     border: 2px solid black; }
-    nav .logo-two p {
+    .nav-two .logo-two p {
       margin-top: 20px;
       font-size: 20px;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
       color: black;
       letter-spacing: 1px; }
-  nav .link-wrap2 .links {
+  .nav-two .link-wrap2 .links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -186,19 +187,19 @@ nav {
     -ms-flex-pack: center;
     justify-content: center;
     text-transform: lowercase; }
-  nav .link-wrap2 i {
+  .nav-two .link-wrap2 i {
     display: none;
     font-size: 20px;
     color: black;
     cursor: pointer; }
-  nav .link-wrap2 a {
+  .nav-two .link-wrap2 a {
     font-weight: 100;
     color: black;
     font-size: 15px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-decoration: none;
     letter-spacing: 2px; }
-  nav .link-wrap2 span {
+  .nav-two .link-wrap2 span {
     margin: 0 20px;
     color: #79addc;
     font-size: 30px; }
@@ -612,13 +613,1370 @@ nav {
     width: 255px;
     border-bottom: 2px solid black; }
 
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 40px; }
+  .container .photo {
+    width: 260px;
+    height: 150px;
+    background-image: url(../images/about-client-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .container .paragraph {
+    width: 385px;
+    height: 102px; }
+    .container .paragraph p {
+      margin-left: 30px;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      letter-spacing: 2px; }
+  .container .photo2 {
+    width: 260px;
+    height: 150px;
+    background-image: url(../images/about-client-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .container .paragraph2 {
+    width: 385px;
+    height: 102px; }
+    .container .paragraph2 p {
+      margin-left: 30px;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      letter-spacing: 2px; }
+
+.tour-header {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 981px;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tours-header.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .tour-header h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1; }
+
+.tour-wrapper {
+  height: 100%;
+  width: 981px;
+  margin: 0 auto;
+  display: block;
+  display: inline; }
+  .tour-wrapper .tour-float {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 900px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+    .tour-wrapper .tour-float .tbox {
+      margin-bottom: 50px;
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .tour-wrapper .tour-float .tbox h2 {
+        text-align: center;
+        color: #ffffff;
+        margin-top: 60px;
+        color: #ffffff;
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100; }
+      .tour-wrapper .tour-float .tbox h3 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        margin-top: -40px; }
+      .tour-wrapper .tour-float .tbox .tour-button {
+        padding: 10px 25px;
+        background-color: #79addc;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        border-radius: 20px;
+        width: 80%;
+        margin-bottom: 60px;
+        text-align: center; }
+    .tour-wrapper .tour-float .box-two {
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .tour-wrapper .tour-float .box-three {
+      background-color: black;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+  .tour-wrapper .tour-float2 {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 900px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+    .tour-wrapper .tour-float2 .tbox {
+      margin-bottom: 50px;
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-04.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .tour-wrapper .tour-float2 .tbox h2 {
+        text-align: center;
+        color: #ffffff;
+        margin-top: 60px;
+        color: #ffffff;
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100; }
+      .tour-wrapper .tour-float2 .tbox h3 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        margin-top: -40px; }
+      .tour-wrapper .tour-float2 .tbox .tour-button {
+        padding: 10px 25px;
+        background-color: #79addc;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        border-radius: 20px;
+        width: 80%;
+        margin-bottom: 60px;
+        text-align: center; }
+    .tour-wrapper .tour-float2 .box-two {
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-05.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .tour-wrapper .tour-float2 .box-three {
+      background-color: black;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-06.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+  .tour-wrapper .tour-float3 {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 900px;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+    .tour-wrapper .tour-float3 .tbox {
+      width: 236px;
+      height: 304px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-07.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .tour-wrapper .tour-float3 .tbox h2 {
+        text-align: center;
+        color: #ffffff;
+        margin-top: 60px;
+        color: #ffffff;
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100; }
+      .tour-wrapper .tour-float3 .tbox h3 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        margin-top: -40px; }
+      .tour-wrapper .tour-float3 .tbox .tour-button {
+        padding: 10px 25px;
+        background-color: #79addc;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        border-radius: 20px;
+        width: 80%;
+        margin-bottom: 60px;
+        text-align: center; }
+    .tour-wrapper .tour-float3 .box-two {
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-08.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .tour-wrapper .tour-float3 .box-three {
+      background-color: black;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-09.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+
+.israel-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .israel-hero h2 {
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; }
+  .israel-hero p {
+    margin-top: 220px;
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.box-wrapper {
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .box-wrapper .box {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-two {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-three {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.israel-days {
+  margin: 0 auto;
+  width: 981px; }
+  .israel-days h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .israel-days .line {
+    width: 171px;
+    border-bottom: 2px solid black; }
+  .israel-days p {
+    margin-top: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5; }
+
+.booking {
+  width: 981px;
+  height: 180px;
+  margin-top: 150px;
+  margin-left: 615px; }
+  .booking .book-button {
+    padding: 10px 30px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center; }
+
+.usa-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .usa-hero h2 {
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; }
+  .usa-hero p {
+    margin-top: 220px;
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.box-wrapper {
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .box-wrapper .box {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-two {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-three {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.usa-days {
+  margin: 0 auto;
+  width: 981px; }
+  .usa-days h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .usa-days .line {
+    width: 171px;
+    border-bottom: 2px solid black; }
+  .usa-days p {
+    margin-top: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5; }
+
+.booking {
+  width: 981px;
+  height: 180px;
+  margin-top: 150px;
+  margin-left: 615px; }
+  .booking .book-button {
+    padding: 10px 30px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center; }
+
+.australia-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .australia-hero h2 {
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; }
+  .australia-hero p {
+    margin-top: 220px;
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.box-wrapper {
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .box-wrapper .box {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-two {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-three {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.australia-days {
+  margin: 0 auto;
+  width: 981px; }
+  .australia-days h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .australia-days .line {
+    width: 171px;
+    border-bottom: 2px solid black; }
+  .australia-days p {
+    margin-top: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5; }
+
+.booking {
+  width: 981px;
+  height: 180px;
+  margin-top: 150px;
+  margin-left: 615px; }
+  .booking .book-button {
+    padding: 10px 30px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center; }
+
+.zealand-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-04.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .zealand-hero h2 {
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; }
+  .zealand-hero p {
+    margin-top: 220px;
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.box-wrapper {
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .box-wrapper .box {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-two {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-three {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.zealand-days {
+  margin: 0 auto;
+  width: 981px; }
+  .zealand-days h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .zealand-days .line {
+    width: 171px;
+    border-bottom: 2px solid black; }
+  .zealand-days p {
+    margin-top: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5; }
+
+.booking {
+  width: 981px;
+  height: 180px;
+  margin-top: 150px;
+  margin-left: 615px; }
+  .booking .book-button {
+    padding: 10px 30px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center; }
+
+.france-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-05.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .france-hero h2 {
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; }
+  .france-hero p {
+    margin-top: 220px;
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.box-wrapper {
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .box-wrapper .box {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-two {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-three {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.france-days {
+  margin: 0 auto;
+  width: 981px; }
+  .france-days h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .france-days .line {
+    width: 171px;
+    border-bottom: 2px solid black; }
+  .france-days p {
+    margin-top: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5; }
+
+.booking {
+  width: 981px;
+  height: 180px;
+  margin-top: 150px;
+  margin-left: 615px; }
+  .booking .book-button {
+    padding: 10px 30px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center; }
+
+.egypt-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-06.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .egypt-hero h2 {
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; }
+  .egypt-hero p {
+    margin-top: 220px;
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.box-wrapper {
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .box-wrapper .box {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-two {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-three {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.egypt-days {
+  margin: 0 auto;
+  width: 981px; }
+  .egypt-days h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .egypt-days .line {
+    width: 171px;
+    border-bottom: 2px solid black; }
+  .egypt-days p {
+    margin-top: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5; }
+
+.booking {
+  width: 981px;
+  height: 180px;
+  margin-top: 150px;
+  margin-left: 615px; }
+  .booking .book-button {
+    padding: 10px 30px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center; }
+
+.japan-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-07.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .japan-hero h2 {
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; }
+  .japan-hero p {
+    margin-top: 220px;
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.box-wrapper {
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .box-wrapper .box {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-two {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-three {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.japan-days {
+  margin: 0 auto;
+  width: 981px; }
+  .japan-days h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .japan-days .line {
+    width: 171px;
+    border-bottom: 2px solid black; }
+  .japan-days p {
+    margin-top: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5; }
+
+.booking {
+  width: 981px;
+  height: 180px;
+  margin-top: 150px;
+  margin-left: 615px; }
+  .booking .book-button {
+    padding: 10px 30px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center; }
+
+.canada-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-08.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .canada-hero h2 {
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; }
+  .canada-hero p {
+    margin-top: 220px;
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.box-wrapper {
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .box-wrapper .box {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-two {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-three {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.canada-days {
+  margin: 0 auto;
+  width: 981px; }
+  .canada-days h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .canada-days .line {
+    width: 171px;
+    border-bottom: 2px solid black; }
+  .canada-days p {
+    margin-top: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5; }
+
+.booking {
+  width: 981px;
+  height: 180px;
+  margin-top: 150px;
+  margin-left: 615px; }
+  .booking .book-button {
+    padding: 10px 30px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center; }
+
+.uae-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-09.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .uae-hero h2 {
+    padding: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100; }
+  .uae-hero p {
+    margin-top: 220px;
+    float: right;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.box-wrapper {
+  width: 981px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .box-wrapper .box {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-two {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .box-wrapper .box-three {
+    margin-top: 40px;
+    width: 298px;
+    height: 347px;
+    background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.uae-days {
+  margin: 0 auto;
+  width: 981px; }
+  .uae-days h1 {
+    margin-top: 120px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .uae-days .line {
+    width: 171px;
+    border-bottom: 2px solid black; }
+  .uae-days p {
+    margin-top: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5; }
+
+.booking {
+  width: 981px;
+  height: 180px;
+  margin-top: 150px;
+  margin-left: 615px; }
+  .booking .book-button {
+    padding: 10px 30px;
+    background-color: #79addc;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 20px;
+    text-align: center; }
+
+.special-offers {
+  margin: 0 auto;
+  width: 981px;
+  margin-top: 40px; }
+  .special-offers h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .special-offers .line {
+    width: 199px;
+    border-bottom: 2px solid black; }
+
+.offer-wrapper {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .offer-wrapper .offer-photo {
+    width: 200px;
+    height: 300px;
+    background-image: url(../images/special-offer-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .offer-wrapper .offer-one {
+    margin-left: 40px; }
+    .offer-wrapper .offer-one h1 {
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+      letter-spacing: 2px; }
+    .offer-wrapper .offer-one p {
+      margin-bottom: 80px;
+      margin-top: 20px;
+      width: 350px;
+      height: 131px;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+      letter-spacing: 2px; }
+    .offer-wrapper .offer-one .tour-button {
+      padding: 10px 25px;
+      background-color: #79addc;
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      font-weight: 100;
+      font-size: 15px;
+      border-radius: 20px;
+      width: 80%;
+      margin-bottom: 60px;
+      text-align: center; }
+
+.offer-wrapper {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .offer-wrapper .offerphoto-two {
+    width: 200px;
+    height: 300px;
+    background-image: url(../images/special-offer-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .offer-wrapper .offer-two {
+    margin-left: 40px; }
+    .offer-wrapper .offer-two p {
+      margin-top: 20px;
+      width: 350px;
+      height: 131px;
+      line-height: 1.5;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 80px;
+      letter-spacing: 2px; }
+    .offer-wrapper .offer-two .tour-button {
+      padding: 10px 25px;
+      background-color: #79addc;
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      font-weight: 100;
+      font-size: 15px;
+      border-radius: 20px;
+      width: 80%;
+      margin-bottom: 60px;
+      text-align: center; }
+
+.blog {
+  height: 100%;
+  margin: 0 auto;
+  width: 80%; }
+  .blog .blog-title h2 {
+    margin-top: 120px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .blog .blog-title .line {
+    width: 255px;
+    border-bottom: 2px solid black; }
+  .blog .blog-title .blue-square {
+    width: 60px;
+    height: 60px;
+    background-color: #79addc; }
+
+.contact {
+  height: 100%;
+  margin: 0 auto;
+  width: 80%; }
+  .contact .contact-title h2 {
+    margin-top: 120px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px; }
+  .contact .contact-title .line {
+    width: 255px;
+    border-bottom: 2px solid black; }
+
 footer {
   width: 100%;
   height: 100px;
   background-color: #79addc;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 100px; }
   footer .footer-2 {
     margin: 0 auto;
     width: 980px;

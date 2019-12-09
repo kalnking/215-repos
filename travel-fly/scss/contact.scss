@@ -1,0 +1,20 @@
+.contact {
+  height: 100%;
+  margin: 0 auto;
+  width: 80%;
+
+  .contact-title {
+    h2 {
+      margin-top: 120px;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: lighter;
+      letter-spacing: 2px;
+    }
+
+    .line {
+      width: 255px;
+      border-bottom: 2px solid black;
+    }
+  }
+}
